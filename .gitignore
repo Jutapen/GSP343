@@ -1,0 +1,32 @@
+# Kredensial dan rahasia - jangan pernah di-commit
+*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.csr
+.env
+.env.*
+*.env
+id_rsa*
+id_ed25519*
+credentials*
+secrets*
+.config/
+.gcloud/
+.kube/
+kubeconfig*
+
+# Artefak lab
+microservices-demo/
+loadtest.log
+nohup.out
+*.log
+
+# Sampah editor / OS
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
